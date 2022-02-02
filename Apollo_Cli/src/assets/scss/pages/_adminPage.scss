@@ -1,0 +1,66 @@
+.main-dashboard {
+  background-color: $bg-color;
+  height: 100%;
+}
+.dashboard-header {
+  margin-bottom: 2.4rem;
+  &__breadcum {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
+.dashboard-main {
+  padding: 3rem;
+  background-color: white;
+}
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+.modal-footer {
+  text-align: right;
+}
+.food-image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.detail-content {
+  display: flex;
+  padding: 2rem;
+  background-color: $white;
+}
+.food-detail-image {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9rem;
+  margin-left: 10rem;
+}
+.linkbutton {
+  color: #1890ff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.card_title {
+  height: 22px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  line-height: 22px;
+}
+.card-total {
+  height: 38px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 30px;
+  line-height: 38px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}

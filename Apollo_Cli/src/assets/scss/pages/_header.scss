@@ -1,0 +1,42 @@
+.top-header {
+  border-bottom: 2px solid #eee;
+  width: 100%;
+  box-shadow: 5px 10px 20px -20px #55acee;
+  // height: 6.5rem;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+  &__logo {
+    cursor: pointer;
+    @include flex(center);
+    border-radius: 50%;
+
+    &--title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #3aa9e0;
+      padding-left: 1rem;
+    }
+  }
+}
+.top-container {
+  padding: 3rem 10rem;
+}
+
+.navbar {
+  @include flex(space-between);
+  width: 100%;
+}
+
+.navMobile {
+  display: none;
+  position: absolute;
+}
+
+.ant-menu-horizontal {
+  background-color: inherit;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #3aa9e0;
+  font-weight: 500;
+}

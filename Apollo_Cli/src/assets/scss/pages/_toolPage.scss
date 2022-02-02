@@ -1,0 +1,68 @@
+.tool-content {
+  background-color: $white;
+  width: 75%;
+  min-height: 70vh;
+  margin: 0 auto;
+  padding: 4rem;
+  // min-height: 100vh;
+
+  &__search {
+    max-width: 30rem;
+  }
+}
+
+.tools-select {
+  width: 300px;
+  .ant-select-selector {
+    max-width: 30rem;
+  }
+}
+.search-loading {
+  width: 100%;
+  padding: 3rem;
+  text-align: center;
+  &__load {
+    margin: 0 auto;
+  }
+}
+.only-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.search-result {
+  width: 70%;
+}
+.tool-search-item {
+  padding: 0.5rem 1rem;
+}
+.input-caltool {
+  margin-right: 4rem;
+  width: 30%;
+  min-width: 30rem;
+}
+.item-food-name {
+  text-align: left;
+  max-width: 15rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.calculate-content {
+  // width: 100%;
+  padding: 2rem 4rem;
+  // border-left: solid 1px rgba(0, 0, 0, 0.15);
+  // margin-left: 4rem;
+}
+.input-larger {
+  width: 100%;
+  transition: 0.5s;
+  animation: scroll 0.5s 1;
+}
+.search-larger {
+  width: 40%;
+  margin: auto;
+  transition: 0.5s;
+  animation: scroll 0.5s 1;
+}

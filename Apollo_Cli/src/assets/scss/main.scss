@@ -1,0 +1,20 @@
+@import "~antd/dist/antd.css";
+
+//  import reset base css
+@import "./base/reset";
+@import "./base/font";
+
+@import "./abstracts/variables";
+@import "./abstracts/mixin";
+@import "./abstracts/common";
+
+@import "./components/dashboardLayout.scss";
+@import "./components/nutritionFact";
+
+@import "./pages/login";
+@import "./pages/adminPage";
+@import "./pages/addRecipe";
+@import "./pages/header";
+@import "./pages/topPage";
+@import "./pages/toolPage";
+@import "./pages/trackPage";

@@ -1,0 +1,95 @@
+.banner {
+  background-image: url("../../images/Banner.jpg");
+  background-repeat: no-repeat;
+  // background-position: center 0;
+  background-color: $white;
+  background-size: cover;
+  height: 60rem;
+  width: 100%;
+  text-align: right;
+
+  &__content {
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+  }
+  &__title {
+    margin-top: 25%;
+    // margin: auto;
+    padding: 3rem;
+    color: $white;
+    font-size: 10rem;
+    user-select: none;
+  }
+}
+.articles-content {
+  background-color: $white;
+  // width: 60%;
+  // margin: 0 auto;
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.articles-info {
+  width: 50%;
+}
+.articles-img {
+  // width: 300px;
+  height: 20rem;
+  object-fit: cover;
+}
+.articles-list {
+  margin-top: 2rem;
+  max-height: 70vh;
+  overflow: auto;
+}
+.article-foodimg {
+  max-width: 10rem;
+  object-fit: cover;
+}
+.nutrition-table {
+  margin: auto;
+  width: 70%;
+}
+.card-stack {
+  display: flex;
+  text-align: center;
+  padding: 80px 20px;
+  &__title {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  &__text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0 36px 0;
+  }
+}
+.card-wrap {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.feature-text {
+  width: 400px;
+  padding: 5px 35px;
+}
+.feature-item {
+  width: 30rem;
+}
+.bg-blue {
+  background-color: #3baae1;
+  color: #f0f1f0;
+}
+.page-footer {
+  background-color: #fff;
+  padding: 24px 0;
+  font-size: 15px;
+  text-align: center;
+}

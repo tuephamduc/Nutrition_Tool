@@ -1,0 +1,47 @@
+.total {
+  @include size(18px, 18px);
+  border-radius: 50%;
+  background-color: #0eafff;
+  text-align: center;
+  position: absolute;
+  top: 2%;
+  left: 55%;
+  color: $white;
+  font-size: 12px;
+  padding-top: 0px;
+
+  @include tablet {
+    top: 1%;
+
+    @include size(17px, 17px);
+    font-size: 12px;
+    padding-top: 0;
+  }
+
+  @include sm-mobile {
+    @include size(17px, 17px);
+    padding-top: 0;
+  }
+}
+
+.active-job {
+  // background: $lightSteelBlue;
+
+  .job__item-text {
+    font-weight: 600;
+
+    .job__item-count {
+      font-weight: 400;
+    }
+  }
+}
+
+.clock {
+  // color: $lightBlackExtra;
+  font-size: 24px;
+  transform: rotateY(180deg);
+
+  @include tablet {
+    font-size: 20px;
+  }
+}

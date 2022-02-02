@@ -1,0 +1,99 @@
+.container-flex {
+  display: flex;
+  // flex-wrap: wrap;
+}
+.justify {
+  justify-content: space-between;
+}
+.dynamic-delete-button {
+  position: relative;
+  color: red;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 2.4rem;
+}
+.ingre-group {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-lable {
+  // width: 2rem;
+}
+
+.ant-form-item-label {
+  max-width: 12rem;
+  padding-right: 2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ant-select-selector {
+  max-width: 20rem;
+}
+.input-lable {
+  text-align: left;
+  width: 10rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.margin-24 {
+  margin-top: 2.4rem;
+}
+.collapse-container {
+  background-color: $white;
+  border: none;
+}
+.ant-collapse > .ant-collapse-item {
+  border-bottom: none;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 0 !important;
+}
+.down-arrow {
+  position: relative;
+  top: -3.5rem;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.custom-avt {
+  border-radius: 50%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.food-image-change {
+  max-width: 25rem;
+  height: 20rem;
+  object-fit: cover;
+}
+.search-food {
+  margin-bottom: 4rem;
+}
+.search-content {
+  max-height: 40rem;
+  overflow: auto;
+  position: absolute;
+  width: 30rem;
+  background-color: $white;
+  z-index: 1000;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.panel-form {
+  width: 32rem;
+}
+.mr {
+  margin-right: 5rem;
+}

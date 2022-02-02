@@ -1,0 +1,93 @@
+@mixin positionTopLeft($top, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+@mixin positionTopRight($top, $right) {
+  position: absolute;
+  top: $top;
+  right: $right;
+}
+
+@mixin positionBottomLeft($bottom, $left) {
+  bottom: $bottom;
+  left: $left;
+  position: absolute;
+}
+
+@mixin positionBottomRight($bottom, $right) {
+  bottom: $bottom;
+  right: $right;
+  position: absolute;
+}
+
+@mixin flex($value) {
+  display: flex;
+  justify-content: ($value);
+  align-items: center;
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+@mixin row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@mixin row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+// responsive
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$mobile-width: 525px;
+
+// @mixin mobile {
+
+// }
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin sm-mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin positionCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
